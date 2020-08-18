@@ -1,5 +1,5 @@
 # Write your code here.
-katz_deli = ["Julie", "Alex", "Michelle"]
+
 katz_deli.map_with_index |name, index|
 katz_deli = []
 
