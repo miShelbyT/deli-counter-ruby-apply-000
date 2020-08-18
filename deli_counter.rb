@@ -6,14 +6,9 @@ katz_deli = []
 def line(katz_deli)
   katz_deli.map_with_index { |name, index| puts "The line is currently: (#{index} + 1). #{name}, " }
   end
-end
-  katz_deli_new
-  index_plus = index += 1
-  puts "The line is currently:" + "(katz_deli_new)"
+  if katz_deli.length == 0
+    puts "The line is currently empty."
   end
-   if katz_deli.length == 0
-     puts "The line is currently empty."
-   end
  end
 
  katz_deli.each_with_index
