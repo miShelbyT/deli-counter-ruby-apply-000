@@ -1,15 +1,14 @@
 # Write your code here.
 
-
 katz_deli = []
 
 def line(katz_deli)
-  katz_deli.map.with_index { |name, index| [name, index] }
-  puts "The line is currently: " + "#{katz_deli.map.with_index}""
+  katz_deli.map.each_with_index { |name, index| [name, index] }
+    puts "The line is currently: #{(index + 1)}. #{name}"
   if katz_deli.length == 0
     puts "The line is currently empty."
   end
-
+end
 
 def take_a_number(katz_deli, end_of_line_name)
   katz_deli.push(end_of_line_name)
