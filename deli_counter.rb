@@ -11,8 +11,6 @@ def line(katz_deli)
   end
  end
 
- katz_deli.each_with_index
- index_plus = index += 1
 
 def take_a_number(katz_deli, end_of_line_name)
   if katz_deli.length == 0
