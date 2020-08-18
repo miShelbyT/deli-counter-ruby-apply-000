@@ -1,12 +1,10 @@
 # Write your code here.
 
-katz_deli.map_with_index |name, index|
+
 katz_deli = []
 
 def line(katz_deli)
-  katz_deli.each_with_index.map do |name, index|
-  katz_deli_new = Array.new
-  katz_deli_new << ["#{index}"[katz_deli], "#{name}"[katz_deli]]
+  katz_deli.map_with_index { |name, index| puts "The line is currently: (#{index} + 1). #{name}, " }
   end
 end
   katz_deli_new
