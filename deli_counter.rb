@@ -13,7 +13,7 @@ end
 
 def take_a_number(katz_deli, end_of_line_name)
   katz_deli.push(end_of_line_name)
-  katz_deli.with_index |end_of_line_name| |index|
+  katz_deli.with_index |end_of_line_name, index|
   puts "Welcome, #{end_of_line_name}. Your position in line is #{index}."
 end
 
