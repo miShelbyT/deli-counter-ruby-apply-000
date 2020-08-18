@@ -1,6 +1,6 @@
 # Write your code here.
 katz_deli = ["Julie", "Alex", "Michelle"]
-katz_deli.each_with_index.map do |name, index|
+katz_deli.map_with_index |name, index|
 katz_deli = []
 
 def line(katz_deli)
