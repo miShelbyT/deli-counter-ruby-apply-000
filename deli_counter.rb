@@ -4,7 +4,7 @@
 katz_deli = []
 
 def line(katz_deli)
-  katz_deli.map.with_index { |name, index| }
+  prints katz_deli.map.with_index { |name, index| "The line is currently: #{index}. #{name}" }
   if katz_deli.length == 0
     puts "The line is currently empty."
   end
