@@ -12,10 +12,7 @@ end
 
 
 def take_a_number(katz_deli, end_of_line_name)
-  if katz_deli.length == 0
-    katz_deli.unshift(end_of_line_name)
-  else
-    katz_deli.push(end_of_line_name)
+  katz_deli.push(end_of_line_name)
   end
   puts "Welcome, #{end_of_line_name}. Your position in line is #{index_plus}."
   end
